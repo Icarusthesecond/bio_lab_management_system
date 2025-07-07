@@ -138,9 +138,28 @@ if(isset($_POST['submit']))
     border-radius: 15px;
     background: -webkit-linear-gradient(#ac873624, rgba(19, 134, 117, 0.6));
 }
+.video-background {
+      position: fixed;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+    }
 
+    .video-background video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
     </style>
-    <body background="images/anatomy canva card.jpeg">
+    <body >
+    <div class="video-background">
+    <video id="vid" autoplay muted loop>
+      <source src="images/abg.mp4" type="video/mp4">
+    </video>
+  </div>
         <div class="title">
             <img class="logo" src="images/logo.png">
             <h1>Evergreen Ridge University</h1>
