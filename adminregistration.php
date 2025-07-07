@@ -178,7 +178,7 @@ if(isset($_POST['submit']))
                     <input type="email" name="Email" required placeholder="Enter Email"/><br/>
                     <input type="password" name="Password" required placeholder="Enter your Password"><br/>
                     <input type="password" name="CPassword" required placeholder="Re-enter your Password"><br/>
-                    <input type="code" autocomplete="off" name="Code" required placeholder="Enter Code"><br/>
+                    <input type="password" autocomplete="off" name="Code" required placeholder="Enter Code"><br/>
                     <input type="submit" name="submit" value="Register" class="form-btn1"><br/>
                     <p>Already have an account?<a id="lg" href="adminlogin.php">Click to login</a></p>
                 </div>

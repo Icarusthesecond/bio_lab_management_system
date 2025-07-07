@@ -218,6 +218,11 @@
         <i class="fas fa-calendar-alt"></i>
         <div class="label">Timetable</div>
       </a>
+      <a href="adminregistration.php" title="Admin Panel">
+  <i class="fas fa-user-shield"></i>
+  <div class="label">Admin</div>
+</a>
+
     </div>
 
     <div class="title">
