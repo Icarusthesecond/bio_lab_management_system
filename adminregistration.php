@@ -68,7 +68,7 @@ if(isset($_POST['submit']))
 .register form h1{
     font-size: 30px;
     margin-bottom: 10px;
-    color: rgba(16, 62, 72, 0.71);
+    color: rgba(32, 118, 137, 0.71);
     padding: 15px;
     background:  #d29a2240;
     border-radius:15px;
@@ -180,7 +180,7 @@ if(isset($_POST['submit']))
                     <input type="password" name="CPassword" required placeholder="Re-enter your Password"><br/>
                     <input type="code" autocomplete="off" name="code" required placeholder="Enter Code"><br/>
                     <input type="submit" name="submit" value="Register" class="form-btn1"><br/>
-                    <p>Already have an account?<a id="lg" href="login.php">Click to login</a></p>
+                    <p>Already have an account?<a id="lg" href="adminlogin.php">Click to login</a></p>
                 </div>
             </form>
         </div>
