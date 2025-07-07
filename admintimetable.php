@@ -122,7 +122,7 @@
       <i class="fas fa-user-graduate"></i>
       <div class="label">Students</div>
     </a>
-    <a href="lab.html" title="Lab Components">
+    <a href="lab.php" title="Lab Components">
       <i class="fas fa-microscope"></i>
       <div class="label">Lab</div>
     </a>
