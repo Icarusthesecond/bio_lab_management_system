@@ -1,6 +1,8 @@
 {
   "require": {
     "heroku/heroku-buildpack-php": "*",
-    "ext-mysqli": "*"
+    "ext-mysqli": "*",
+    "ext-pgsql": "*",
+    "ext-pdo_pgsql": "*"
   }
 }
